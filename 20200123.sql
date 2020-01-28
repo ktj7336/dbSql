@@ -221,5 +221,9 @@ ORDER BY comm DESC, empno ASC ;
 -- ORDER BY 3
 SELECT *
 FROM emp
+<<<<<<< HEAD
 WHERE mgr IS NOT NULL
+=======
+WHERE mgt IS NOT NULL
+>>>>>>> master
 ORDER BY job, empno DESC;
